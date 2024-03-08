@@ -25,10 +25,7 @@ void absolute_value(int a) {
 }
 
 int main() {
-  int a, b;
-  printf("Enter two numbers: ");
-  scanf("%d %d", &a, &b);
-
+  int a=10, b=20;
   add(a, b);
   subtract(a, b);
   multiply(a, b);
