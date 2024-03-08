@@ -1,5 +1,5 @@
 #include <stdio.h>
-int num1, num2;
+int num1=10, num2=20;
 void add() {
   int sum = num1 + num2;
   printf("Sum = %d\n", sum);
@@ -23,8 +23,6 @@ void absolute() {
   printf("Absolute value of %d = %d\n", num2, abs_num2);
 }
 int main() {
-  printf("Enter two numbers: ");
-  scanf("%d %d", &num1, &num2);
   add();
   subtract();
   multiply();
